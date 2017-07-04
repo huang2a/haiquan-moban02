@@ -1,0 +1,39 @@
+body,html{
+  width: 100%;
+  height: 100%;
+}
+.haiquan-loader{
+  display: none !important;
+}
+#haiquan-header{
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#ie8-box{
+  display:block;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 9999;
+  opacity:0.8;
+}
+#ie8-box #ie-tip{
+  display:block;
+  position: absolute;
+  width:100%;
+  height:100%;
+  padding: 20px;
+  color: #f00 !important;
+  text-align: center;
+  font-size: 36px;
+}
+.haiquan-cover .overlay {
+  background: url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7) repeat\0;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#e62a3356,endColorstr=#e62a3356)\0;
+  zoom: 1\0;
+
+}
+:root .haiquan-cover .overlay {
+  filter: none\9;
+}
